@@ -1,0 +1,261 @@
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: "Exo 2"; */
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+}
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #aaa;
+    }
+
+    ::-moz-placeholder {
+        color: #aaa;
+    }
+
+    :-ms-input-placeholder {
+        color: #aaa;
+    }
+
+    :-moz-placeholder {
+        color: #aaa;
+    }
+
+#page {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 100%; /* 800px; */
+}
+
+#logo {
+    /* font-family: "Bad Script"; */
+    font-family: 'Heebo', sans-serif;
+    font-size: 48px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: #223985;
+}
+
+    #logo img {
+        width: 296px;
+        height: 161px;
+        vertical-align: text-top;
+        margin-left: 5px;
+        /* transform: rotate(10deg); */
+    }
+
+
+#page h1 {
+  font-family: 'Heebo', sans-serif;
+  margin: 30px 0 30px 0;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 2px;
+  color: #c5360e;
+}
+
+#page h2 {
+    margin: 5px auto 0 auto;
+    font-size: 28px;
+    font-weight: 100;
+    /* font-weight: bold; */
+    color: rgb(84, 31, 145); /* WAS: #2DAA21; */
+    line-height: 40px;
+    max-width: 750px;
+}
+#page h2 b {
+  font-weight: bold;
+  font-style: italic;
+}
+#page h3 {
+    margin: 5px auto 0 auto;
+    font-size: 22px;
+    color: #3E3841;
+    line-height: 30px;
+    max-width: 750px;
+}
+  #page h3 b {
+    font-weight: bold;
+  }
+#page h4 {
+    margin: 25px auto 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #223985;
+    line-height: 20px;
+    max-width: 750px;
+}
+  #page h4 b {
+    font-weight: bolder;
+  }
+#page h5 {
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+    color: #c5360e;
+    line-height: 30px;
+    max-width: 750px;
+}
+  #page h5 b {
+    font-weight: bold;
+  }
+
+#page p {
+  margin-top: 10px;
+}  
+#page form {
+    margin: 30px auto 0 auto;
+}
+
+    #page form input[type=text] {
+        border: solid #999 1px;
+        font-size: 14px;
+        height: 40px;
+        border-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        vertical-align: middle;
+        line-height: 40px;
+        padding-left: 15px;
+        width: 200px;
+    }
+
+    #page form input[type=submit] {
+        background: #2DAA21;
+        color: #fff;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        vertical-align: middle;
+        line-height: 40px;
+        cursor: pointer;
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    #page form button {
+      background: #2DAA21;
+      color: #FFF;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      vertical-align: middle;
+      line-height: 40px;
+      cursor: pointer;
+      padding: 0 15px;
+      font-size: 14px;
+    }
+
+#page #footer {
+    margin-top: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+    #page #footer a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #999;
+    }
+
+        #page #footer a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+.grid-container {
+  display: grid;
+  height: 120px;
+  width: 80%; /* WAS: 600px; */
+  margin-left: 28%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  grid-template-columns: 5% 25% 0% 5% 25%; /* WAS: 60px 210px 15px 60px 210px; */
+  padding: 5px;
+}
+
+.grid-odd {
+  padding: 5px;
+  text-align: center;
+}
+.grid-even {
+  padding-left: 10px;
+  padding-top: 15px;
+  text-align: left;
+}
+.grid-spacer {
+  padding: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: text-top;
+}
+
+#mailchimp {
+	/* background: #f8f8f8; */
+	/* color: #3D6392; */
+  white-space: nowrap;
+  overflow-x: auto;
+  /* display: flex;
+  justify-content: space-between; */
+	padding: 0px 0px;
+}
+	#mailchimp input {
+    /* display:inline-block; width:15%; /* padding:10px; */ /* JSH */ */
+    /* display:inline-block; margin-right: 1px; */
+    border: solid #999 1px;
+    /* border: none; */
+    font-size: 14px;
+    color: gray;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    vertical-align: middle;
+    line-height: 34px;
+    padding-left: 15px;
+    width: 15%;
+    margin-bottom: 0px;
+	}
+    #mailchimp input.email {
+      background: #f8f8f8;
+      float:left; margin-left: 35%;
+   }
+		#mailchimp input[type="submit"] {
+      float:right; margin-right: 35%;
+      /* display:inline-block; margin-right: 1px; */
+      margin-top: 2px;
+      background: #2DAA21;
+      color: #FFF;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      vertical-align: middle;
+      line-height: 40px;
+      cursor: pointer;
+      /* padding: 0 15px; */
+      font-size: 14px;
+
+			/* background: #2DAA21;
+      height: 40px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 15px;
+			width: 15%;
+			padding: 8px 0; */
+
+		}
+			#mailchimp input[type="submit"]:hover { color: #fcfc1c }
