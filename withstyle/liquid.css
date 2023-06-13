@@ -66,7 +66,7 @@ html, body {
     font-size: 28px;
     font-weight: 100;
     /* font-weight: bold; */
-    color: rgb(84, 31, 145); /* WAS: #2DAA21; */
+    color: #7137C8; /* WAS: #2DAA21; */
     line-height: 40px;
     max-width: 750px;
 }
@@ -88,7 +88,7 @@ html, body {
     margin: 25px auto 0 auto;
     font-size: 20px;
     font-weight: bold;
-    color: #223985;
+    color: #7137C8;
     line-height: 20px;
     max-width: 750px;
 }
